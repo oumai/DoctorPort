@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ASsetTitleTVC" id="KGk-i7-Jjw" customClass="ASsetTitleTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lBC-3j-dFb">
+                        <rect key="frame" x="274" y="0.0" width="56" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="56" id="Eui-eC-AOZ"/>
+                        </constraints>
+                        <state key="normal" image="myclinic_btn_choose2(default)">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="titleButtonClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="OJ4-jo-Nc9"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phX-EG-rTI">
+                        <rect key="frame" x="8" y="9" width="169" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="200" id="Mrx-8m-Ll2"/>
+                            <constraint firstAttribute="height" constant="18" id="dI8-0K-vGN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="phX-EG-rTI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="2cx-SO-bdG"/>
+                    <constraint firstItem="lBC-3j-dFb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="7DI-jP-phj"/>
+                    <constraint firstAttribute="trailing" secondItem="lBC-3j-dFb" secondAttribute="trailing" constant="-10" id="B0z-p0-tQa"/>
+                    <constraint firstAttribute="centerY" secondItem="phX-EG-rTI" secondAttribute="centerY" id="iqp-X8-MCr"/>
+                    <constraint firstAttribute="bottom" secondItem="lBC-3j-dFb" secondAttribute="bottom" id="mqi-EK-PDZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="titleButton" destination="lBC-3j-dFb" id="snx-0M-wOu"/>
+                <outlet property="titleLabel" destination="phX-EG-rTI" id="sKq-pB-vWf"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="myclinic_btn_choose2(default)" width="37" height="37"/>
+    </resources>
+</document>

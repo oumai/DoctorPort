@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ASpregnatDATVB" id="KGk-i7-Jjw" customClass="ASpregnatDATableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="姓名" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ew-j8-DlN">
+                        <rect key="frame" x="17" y="11" width="75" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="B4J-YZ-Ky8"/>
+                            <constraint firstAttribute="width" constant="150" id="dfG-4t-f5Z"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="无" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fr1-JQ-28S">
+                        <rect key="frame" x="127" y="11" width="180" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="2hb-wY-0fb"/>
+                            <constraint firstAttribute="width" constant="180" id="CGf-P9-6OB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="centerY" secondItem="8Ew-j8-DlN" secondAttribute="centerY" id="0IP-IL-jBy"/>
+                    <constraint firstAttribute="trailing" secondItem="Fr1-JQ-28S" secondAttribute="trailing" constant="13" id="DP8-tX-jYZ"/>
+                    <constraint firstAttribute="centerY" secondItem="Fr1-JQ-28S" secondAttribute="centerY" id="ThH-X7-544"/>
+                    <constraint firstItem="8Ew-j8-DlN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="13" id="h4f-hK-dfL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="nameLabel" destination="8Ew-j8-DlN" id="weU-uu-DeC"/>
+                <outlet property="theDetailLabel" destination="Fr1-JQ-28S" id="lcq-Ye-Sij"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

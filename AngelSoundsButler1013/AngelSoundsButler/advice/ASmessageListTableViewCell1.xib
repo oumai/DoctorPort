@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ASmessageListTVC111" rowHeight="186" id="KGk-i7-Jjw" customClass="ASmessageListTableViewCell1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="186"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="185"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="advisory_tips1" translatesAutoresizingMaskIntoConstraints="NO" id="Nhw-Q7-mwg">
+                        <rect key="frame" x="8" y="8" width="18" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="KQm-a9-uia"/>
+                            <constraint firstAttribute="width" constant="18" id="acf-Mq-z2A"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="12月26日22:30" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IxY-xX-891">
+                        <rect key="frame" x="34" y="6" width="237" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="237" id="7SE-gT-RW7"/>
+                            <constraint firstAttribute="height" constant="21" id="QpF-U2-xYX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Af2-fE-ex2">
+                        <rect key="frame" x="8" y="30" width="304" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="14" id="4Id-vg-g5k"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Nhw-Q7-mwg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="QbL-yI-3fO"/>
+                    <constraint firstItem="IxY-xX-891" firstAttribute="leading" secondItem="Nhw-Q7-mwg" secondAttribute="trailing" constant="3" id="XhX-yq-LYq"/>
+                    <constraint firstItem="Nhw-Q7-mwg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="ZDO-Ei-dZe"/>
+                    <constraint firstItem="Af2-fE-ex2" firstAttribute="top" secondItem="IxY-xX-891" secondAttribute="bottom" constant="3" id="f2B-tU-lgh"/>
+                    <constraint firstItem="IxY-xX-891" firstAttribute="centerY" secondItem="Nhw-Q7-mwg" secondAttribute="centerY" id="gRD-7y-FYy"/>
+                    <constraint firstItem="Af2-fE-ex2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="nX8-Ms-LnB"/>
+                    <constraint firstAttribute="trailing" secondItem="Af2-fE-ex2" secondAttribute="trailing" constant="8" id="nrW-xx-X8T"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="theDetailLabel" destination="Af2-fE-ex2" id="hU4-07-rho"/>
+                <outlet property="timeLabel" destination="IxY-xX-891" id="2KS-20-XJX"/>
+            </connections>
+            <point key="canvasLocation" x="347" y="364"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="advisory_tips1" width="30" height="30"/>
+    </resources>
+</document>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ASmessageListTVC1" rowHeight="207" id="KGk-i7-Jjw" customClass="ASmessageListTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="207"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="206"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zYv-x9-UwN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="27"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="advisory_tips1" translatesAutoresizingMaskIntoConstraints="NO" id="TaR-AJ-FVN">
+                                <rect key="frame" x="8" y="5" width="18" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="18" id="UdO-x5-poy"/>
+                                    <constraint firstAttribute="height" constant="18" id="au3-vQ-QT6"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12月26日22:30" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAl-Jj-cuS">
+                                <rect key="frame" x="31" y="3" width="237" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="MTO-qB-len"/>
+                                    <constraint firstAttribute="width" constant="237" id="tHi-kl-oka"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="TaR-AJ-FVN" firstAttribute="leading" secondItem="zYv-x9-UwN" secondAttribute="leading" constant="8" id="0MJ-H8-4bL"/>
+                            <constraint firstItem="gAl-Jj-cuS" firstAttribute="leading" secondItem="TaR-AJ-FVN" secondAttribute="trailing" constant="5" id="2id-Z8-nMK"/>
+                            <constraint firstAttribute="centerY" secondItem="gAl-Jj-cuS" secondAttribute="centerY" id="5wN-tA-sLz"/>
+                            <constraint firstAttribute="height" constant="27" id="Pd1-Oi-d1Q"/>
+                            <constraint firstAttribute="centerY" secondItem="TaR-AJ-FVN" secondAttribute="centerY" id="nP6-81-JnG"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkV-fe-5nb">
+                        <rect key="frame" x="8" y="35" width="304" height="81"/>
+                        <string key="text">Labeladsdasdasdhasuidhasudhaisdhaisudhiasuhdiuashdiuahsiduhasiudhiashdiasuhdiuashdiasuhdiuashdiuahsdiuhasiudhaisufhiaudsfhasioufhoasufhoasufhoasdijasjdioasjdoiasjdoiasjdoiasjdoiasjodijas</string>
+                        <fontDescription key="fontDescription" name="KannadaSangamMN" family="Kannada Sangam MN" pointSize="14"/>
+                        <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VOo-mk-Hf9">
+                        <rect key="frame" x="20" y="132" width="300" height="1"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Gg1-my-PGw"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="bkV-fe-5nb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="44y-J8-epE"/>
+                    <constraint firstItem="VOo-mk-Hf9" firstAttribute="top" secondItem="bkV-fe-5nb" secondAttribute="bottom" constant="4" id="Far-qc-FRG"/>
+                    <constraint firstAttribute="trailing" secondItem="VOo-mk-Hf9" secondAttribute="trailing" id="LLQ-Se-jwz"/>
+                    <constraint firstAttribute="trailing" secondItem="zYv-x9-UwN" secondAttribute="trailing" id="bXP-Qm-xAs"/>
+                    <constraint firstAttribute="trailing" secondItem="bkV-fe-5nb" secondAttribute="trailing" constant="8" id="ku0-or-uZV"/>
+                    <constraint firstItem="zYv-x9-UwN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="mbg-J4-ZJq"/>
+                    <constraint firstItem="bkV-fe-5nb" firstAttribute="top" secondItem="zYv-x9-UwN" secondAttribute="bottom" constant="3" id="pIc-Ev-gKC"/>
+                    <constraint firstItem="VOo-mk-Hf9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="xJn-YS-Eua"/>
+                    <constraint firstItem="zYv-x9-UwN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="zxs-ae-sP8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lineView" destination="VOo-mk-Hf9" id="Hwh-58-rBe"/>
+                <outlet property="messageListLabel" destination="bkV-fe-5nb" id="cya-1l-dQc"/>
+                <outlet property="timeLabel" destination="gAl-Jj-cuS" id="hfu-zx-UKS"/>
+                <outlet property="view1" destination="zYv-x9-UwN" id="Yma-jl-kHn"/>
+            </connections>
+            <point key="canvasLocation" x="252" y="301.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="advisory_tips1" width="30" height="30"/>
+    </resources>
+</document>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ASsetTitleView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KcQ-Yr-2ar">
+                    <rect key="frame" x="35" y="72" width="250" height="289"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="职称" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqD-c2-bH0">
+                            <rect key="frame" x="8" y="0.0" width="68" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="QJS-YA-ulP"/>
+                                <constraint firstAttribute="width" constant="68" id="fow-hL-iKJ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ASk-Q6-tGt">
+                            <rect key="frame" x="0.0" y="39" width="250" height="1"/>
+                            <color key="backgroundColor" red="0.82352941176470584" green="0.82352941176470584" blue="0.82352941176470584" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="9MA-zI-jkf"/>
+                            </constraints>
+                        </view>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="40" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="ejJ-6H-yOd">
+                            <rect key="frame" x="0.0" y="40" width="250" height="240"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outlet property="dataSource" destination="iN0-l3-epB" id="GNk-Mh-ykC"/>
+                                <outlet property="delegate" destination="iN0-l3-epB" id="BD6-NI-8ie"/>
+                            </connections>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="ejJ-6H-yOd" firstAttribute="leading" secondItem="KcQ-Yr-2ar" secondAttribute="leading" id="8i6-1R-VbD"/>
+                        <constraint firstAttribute="bottom" secondItem="ejJ-6H-yOd" secondAttribute="bottom" id="Cfm-by-uSa"/>
+                        <constraint firstItem="ejJ-6H-yOd" firstAttribute="top" secondItem="ASk-Q6-tGt" secondAttribute="bottom" id="Kdm-lK-2gV"/>
+                        <constraint firstItem="ASk-Q6-tGt" firstAttribute="top" secondItem="KcQ-Yr-2ar" secondAttribute="top" constant="39" id="LRf-Ks-Gla"/>
+                        <constraint firstAttribute="trailing" secondItem="ejJ-6H-yOd" secondAttribute="trailing" id="OWp-g3-Kfw"/>
+                        <constraint firstItem="iqD-c2-bH0" firstAttribute="leading" secondItem="KcQ-Yr-2ar" secondAttribute="leading" constant="8" id="Q5x-bV-bfv"/>
+                        <constraint firstAttribute="height" constant="280" id="QcQ-Av-8lB"/>
+                        <constraint firstItem="iqD-c2-bH0" firstAttribute="top" secondItem="KcQ-Yr-2ar" secondAttribute="top" id="Xb1-V4-djz"/>
+                        <constraint firstAttribute="width" constant="250" id="kGw-Xd-ifV"/>
+                        <constraint firstAttribute="trailing" secondItem="ASk-Q6-tGt" secondAttribute="trailing" id="oaA-5S-5Sz"/>
+                        <constraint firstItem="ASk-Q6-tGt" firstAttribute="leading" secondItem="KcQ-Yr-2ar" secondAttribute="leading" id="xYo-cD-C5q"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="KcQ-Yr-2ar" secondAttribute="centerY" id="kgG-ik-NVv"/>
+                <constraint firstAttribute="centerX" secondItem="KcQ-Yr-2ar" secondAttribute="centerX" id="rkg-b4-z43"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="myTB" destination="ejJ-6H-yOd" id="d4g-2W-zKC"/>
+                <outlet property="theMainView" destination="KcQ-Yr-2ar" id="j8E-da-aL9"/>
+            </connections>
+        </view>
+    </objects>
+</document>

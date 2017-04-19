@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ASdateView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cXK-2u-Jff">
+                    <rect key="frame" x="0.0" y="307" width="320" height="261"/>
+                    <subviews>
+                        <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="kaD-M1-QMM">
+                            <rect key="frame" x="0.0" y="38" width="320" height="162"/>
+                            <color key="backgroundColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="162" id="UOZ-pp-bA9"/>
+                            </constraints>
+                            <date key="date" timeIntervalSinceReferenceDate="462449497.74274498">
+                                <!--2015-08-28 10:11:37 +0000-->
+                            </date>
+                        </datePicker>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POb-kU-M3s">
+                            <rect key="frame" x="26" y="208" width="269" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="27z-lJ-osT"/>
+                                <constraint firstAttribute="width" constant="269" id="qkv-ze-JcG"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <state key="normal" title="确定" backgroundImage="myclinic_btn_sure">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="okButtonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="xCv-wq-bcK"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="时间设置" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMX-yo-gbQ">
+                            <rect key="frame" x="111" y="9" width="99" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="Ur5-QJ-1zl"/>
+                                <constraint firstAttribute="width" constant="99" id="eaA-tj-JIh"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="kaD-M1-QMM" firstAttribute="leading" secondItem="cXK-2u-Jff" secondAttribute="leading" id="2CC-ni-BdJ"/>
+                        <constraint firstItem="POb-kU-M3s" firstAttribute="top" secondItem="kaD-M1-QMM" secondAttribute="bottom" constant="8" id="9Y3-0N-3iq"/>
+                        <constraint firstItem="KMX-yo-gbQ" firstAttribute="top" secondItem="cXK-2u-Jff" secondAttribute="top" constant="9" id="H2N-uN-EBj"/>
+                        <constraint firstAttribute="centerX" secondItem="KMX-yo-gbQ" secondAttribute="centerX" id="TuX-GS-4Zv"/>
+                        <constraint firstAttribute="height" constant="261" id="aIn-4U-n9d"/>
+                        <constraint firstAttribute="centerX" secondItem="POb-kU-M3s" secondAttribute="centerX" id="fuo-wF-FgX"/>
+                        <constraint firstItem="kaD-M1-QMM" firstAttribute="top" secondItem="KMX-yo-gbQ" secondAttribute="bottom" constant="8" id="oW6-1X-ddc"/>
+                        <constraint firstAttribute="trailing" secondItem="kaD-M1-QMM" secondAttribute="trailing" id="rjS-M9-yEk"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="cXK-2u-Jff" secondAttribute="trailing" id="DcB-Op-m0z"/>
+                <constraint firstItem="cXK-2u-Jff" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="bwX-Dj-IWg"/>
+                <constraint firstAttribute="bottom" secondItem="cXK-2u-Jff" secondAttribute="bottom" id="vAL-y7-P0c"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <connections>
+                <outlet property="getDatePicker" destination="kaD-M1-QMM" id="yJI-7s-U44"/>
+                <outlet property="theMianView" destination="cXK-2u-Jff" id="gTc-1a-Mcu"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="myclinic_btn_sure" width="110" height="39"/>
+    </resources>
+</document>
