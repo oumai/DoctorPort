@@ -104,8 +104,8 @@
 		182FCDA81BCA434700FEF240 /* detail_appointment_history@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182FCDA51BCA434700FEF240 /* detail_appointment_history@2x.png */; };
 		182FCDA91BCA434700FEF240 /* detail_electronic_record@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182FCDA61BCA434700FEF240 /* detail_electronic_record@2x.png */; };
 		182FCDAA1BCA434700FEF240 /* detail_health_date@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182FCDA71BCA434700FEF240 /* detail_health_date@2x.png */; };
-		182FCDAE1BCAA8A000FEF240 /* ASmessageListTableViewCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 182FCDAC1BCAA8A000FEF240 /* ASmessageListTableViewCell1.m */; settings = {ASSET_TAGS = (); }; };
-		182FCDAF1BCAA8A000FEF240 /* ASmessageListTableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182FCDAD1BCAA8A000FEF240 /* ASmessageListTableViewCell1.xib */; settings = {ASSET_TAGS = (); }; };
+		182FCDAE1BCAA8A000FEF240 /* ASmessageListTableViewCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 182FCDAC1BCAA8A000FEF240 /* ASmessageListTableViewCell1.m */; };
+		182FCDAF1BCAA8A000FEF240 /* ASmessageListTableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182FCDAD1BCAA8A000FEF240 /* ASmessageListTableViewCell1.xib */; };
 		18436F521BA6689100498A94 /* ASadviceViewListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18436F511BA6689100498A94 /* ASadviceViewListModel.m */; };
 		18436F5B1BA6AB1700498A94 /* ASImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18436F5A1BA6AB1700498A94 /* ASImageButton.m */; };
 		18436F621BA6AFC300498A94 /* ASMianZeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18436F611BA6AFC300498A94 /* ASMianZeViewController.m */; };
@@ -226,8 +226,8 @@
 		187508CC1BA189C20066CE88 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 187508BF1BA189C20066CE88 /* 10.png */; };
 		187508CD1BA189C20066CE88 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 187508C01BA189C20066CE88 /* 11.png */; };
 		187508CE1BA189C20066CE88 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 187508C11BA189C20066CE88 /* 12.png */; };
-		18770D261BCCE47D0021B032 /* ASaddTimeJView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18770D251BCCE47D0021B032 /* ASaddTimeJView.m */; settings = {ASSET_TAGS = (); }; };
-		18770D281BCCE4A30021B032 /* ASaddTimeJView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18770D271BCCE4A30021B032 /* ASaddTimeJView.xib */; settings = {ASSET_TAGS = (); }; };
+		18770D261BCCE47D0021B032 /* ASaddTimeJView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18770D251BCCE47D0021B032 /* ASaddTimeJView.m */; };
+		18770D281BCCE4A30021B032 /* ASaddTimeJView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18770D271BCCE4A30021B032 /* ASaddTimeJView.xib */; };
 		1890A26A1B8C1D62004E5CE1 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890A2691B8C1D62004E5CE1 /* TTTAttributedLabel.m */; };
 		1890A2921B8C36B8004E5CE1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1890A2781B8C36B8004E5CE1 /* LICENSE */; };
 		1890A2931B8C36B8004E5CE1 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890A27B1B8C36B8004E5CE1 /* MASCompositeConstraint.m */; };
@@ -276,14 +276,14 @@
 		1890A39C1B906B01004E5CE1 /* ASdateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1890A39B1B906B01004E5CE1 /* ASdateView.xib */; };
 		1890A3D21B916CD5004E5CE1 /* ASsearchHospitalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890A3D11B916CD5004E5CE1 /* ASsearchHospitalViewController.m */; };
 		1890A3D51B916CFE004E5CE1 /* ASsearchHospitalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890A3D41B916CFE004E5CE1 /* ASsearchHospitalTableViewCell.m */; };
-		18984AD11BCBC6320061EC2D /* chat_plus_photo_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18984ACF1BCBC6320061EC2D /* chat_plus_photo_h@2x.png */; settings = {ASSET_TAGS = (); }; };
-		18984AD21BCBC6320061EC2D /* chat_plus_photo_h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18984AD01BCBC6320061EC2D /* chat_plus_photo_h@3x.png */; settings = {ASSET_TAGS = (); }; };
-		18984AD71BCBC7D10061EC2D /* RecordDetailjViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18984AD51BCBC7D10061EC2D /* RecordDetailjViewController.m */; settings = {ASSET_TAGS = (); }; };
-		18984AD81BCBC7D10061EC2D /* RecordDetailjViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18984AD61BCBC7D10061EC2D /* RecordDetailjViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		18984ADB1BCBCEE80061EC2D /* chat_plus_photo_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18984AD91BCBCEE80061EC2D /* chat_plus_photo_n@2x.png */; settings = {ASSET_TAGS = (); }; };
-		18984ADC1BCBCEE80061EC2D /* chat_plus_photo_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18984ADA1BCBCEE80061EC2D /* chat_plus_photo_n@3x.png */; settings = {ASSET_TAGS = (); }; };
-		18984ADF1BCBE1510061EC2D /* yjDefaultImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18984ADD1BCBE1510061EC2D /* yjDefaultImage@2x.png */; settings = {ASSET_TAGS = (); }; };
-		18984AE01BCBE1510061EC2D /* yjDefaultImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18984ADE1BCBE1510061EC2D /* yjDefaultImage@3x.png */; settings = {ASSET_TAGS = (); }; };
+		18984AD11BCBC6320061EC2D /* chat_plus_photo_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18984ACF1BCBC6320061EC2D /* chat_plus_photo_h@2x.png */; };
+		18984AD21BCBC6320061EC2D /* chat_plus_photo_h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18984AD01BCBC6320061EC2D /* chat_plus_photo_h@3x.png */; };
+		18984AD71BCBC7D10061EC2D /* RecordDetailjViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18984AD51BCBC7D10061EC2D /* RecordDetailjViewController.m */; };
+		18984AD81BCBC7D10061EC2D /* RecordDetailjViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18984AD61BCBC7D10061EC2D /* RecordDetailjViewController.xib */; };
+		18984ADB1BCBCEE80061EC2D /* chat_plus_photo_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18984AD91BCBCEE80061EC2D /* chat_plus_photo_n@2x.png */; };
+		18984ADC1BCBCEE80061EC2D /* chat_plus_photo_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18984ADA1BCBCEE80061EC2D /* chat_plus_photo_n@3x.png */; };
+		18984ADF1BCBE1510061EC2D /* yjDefaultImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18984ADD1BCBE1510061EC2D /* yjDefaultImage@2x.png */; };
+		18984AE01BCBE1510061EC2D /* yjDefaultImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18984ADE1BCBE1510061EC2D /* yjDefaultImage@3x.png */; };
 		18AEADBE1BB10A2C00AEED1A /* nav_search_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AEADBC1BB10A2C00AEED1A /* nav_search_n@2x.png */; };
 		18AEADBF1BB10A2C00AEED1A /* nav_search_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AEADBD1BB10A2C00AEED1A /* nav_search_n@3x.png */; };
 		18AEADC31BB2A91E00AEED1A /* NSString+ASNSStringCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AEADC21BB2A91E00AEED1A /* NSString+ASNSStringCategory.m */; };
@@ -3222,7 +3222,7 @@
 				TargetAttributes = {
 					180941B31B88270E00D58393 = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = RLEFBK978Y;
+						DevelopmentTeam = QE8C5ZYQ72;
 					};
 					180941CC1B88270E00D58393 = {
 						CreatedOnToolsVersion = 6.4;
@@ -3809,6 +3809,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = QE8C5ZYQ72;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3834,6 +3835,7 @@
 					"$(SRCROOT)/AngelSoundsButler/Jpush",
 				);
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jumper.AngelSoundsButlerRun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -3848,6 +3850,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = QE8C5ZYQ72;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3873,6 +3876,7 @@
 					"$(SRCROOT)/AngelSoundsButler/Jpush",
 				);
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jumper.AngelSoundsButlerRun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
